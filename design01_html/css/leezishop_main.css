@@ -1,0 +1,115 @@
+@charset "utf-8";
+/**
+ * --------------------------------
+ * style.css @ yamoo9.net, 2014
+ * --------------------------------
+ */
+
+/* 분리된 스타일 모듈 호출
+ * normalize.css - 브라우저 간 차이점 조정
+ * common.css - 공통 사용되는 스타일 모듈
+ * -------------------------------- */
+@import "./partials/normalize.css";
+@import "./partials/common.css";
+
+
+/* 문서 스타일
+ * -------------------------------- */
+ /* HEADER_unb */
+#header_unb {
+	overflow: hidden;
+	margin: 0px auto; 
+	height: 42px;
+	width: 1156px; 
+	border-bottom: 1px solid #d1d3d4;
+}
+
+#header_unb * {
+	margin-top: 0;
+}
+
+
+/* UNB */
+#unb {
+	float: right;
+
+}
+#unb li {	
+	display: inline-block;
+	margin-left: 15px;
+}
+
+
+
+/*header*/
+#header {
+
+}
+#brand {
+	margin: 0;
+	float: left;
+	height: 274px;	
+}
+#globalnav {
+	overflow: hidden;
+	width: 880px; 
+	height: 274px;
+	float: left;
+	border-bottom: 1px solid #d1d3d4;
+
+}
+#gnb {
+	width: 880px; 
+	float: left; 
+
+}
+
+#gnb ul {
+	text-align: center;
+	padding-top: 5px;
+}
+#gnb li {
+	line-height: 0; 
+	display: inline; 
+	font-size: 0px;
+	padding-right: 10px;
+}
+
+#gnb_community {
+	margin: 0px auto; 
+	width: 370px; 
+	height: 36px;
+}
+#gnb_community UL {
+	text-align: center
+}
+#gnb_community LI {
+	line-height: 0; 
+	display: inline; 
+	float: left; 
+}
+
+
+
+/*wrap*/
+#wrap {
+	overflow: hidden;
+	height: 2000px
+}
+
+
+#visual {
+	overflow: hidden;
+	height: 528px;
+	margin-bottom: 100px;
+
+}
+
+
+/*weekly_best*/
+#weekly_best {
+	overflow: hidden;
+	height: 973px;
+	margin-bottom: 100px;
+}
+
